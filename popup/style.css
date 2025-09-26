@@ -1,0 +1,46 @@
+html, body {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.10);
+    border: none;
+}
+
+.bt {
+    width: 100%;
+    padding: 4px;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+#launch {
+    background-color: green;
+    color: white;
+    border-color: darkgreen;
+}
+
+.sep {
+    margin: 10px 0 10px 0;
+    height: 1px;
+    background-color: black;
+}
+
+.descContent {
+    padding: 15px;
+    word-wrap: normal;
+}
+
+p {
+    text-align: justify;
+}
+
+#tggl {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}

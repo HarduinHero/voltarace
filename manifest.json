@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "VoltaRace",
+  "version": "1.0",
+  "description": "Incredibilis",
+
+  "icons": {
+    "512": "icons/logo.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.projet-voltaire.fr/*"],
+      "js": ["VoltaRace.js"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "downloads",
+    "*://cheatvolt.abp.lescigales.org/*"
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "512": "icons/logo.png"
+    },
+    "default_title": "VoltaRace"
+  }
+}

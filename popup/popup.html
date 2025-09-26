@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css"/>
+	</head>
+
+<body>
+	<div class="bt" id="launch">Lancer sur la série</div>
+
+	<div class="sep"></div>
+
+	<div id="tggl">
+	<label for="toggleAuto">Passage auto de réponse(<span id="timeIndicator"></span>s</span>)</label>
+	<input type="checkbox" id="toggleAuto">
+
+	<input type="range" 
+		id="timing"
+		min="2"
+		max="10"
+		step="1"
+		oninput="document.getElementById('timeIndicator').innerHTML = this.value"> 
+	</div>
+
+	<div class="sep"></div>
+
+	<div class="descContent">
+	<h1>Comment démarer ?</h1>
+	<p>
+	  Se placer dans la série que vous voulez réaliser et lancer l'affichage des réponses.
+	</p>
+	</div>
+
+	<img src="../icons/logo.png" alt="logo" sizes="150">
+
+
+	<script src="popupAction.js"></script>
+</body>
+
+</html>

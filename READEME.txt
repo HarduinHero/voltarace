@@ -1,0 +1,31 @@
+____   ____        .__     __                                           
+\   \ /   /  ____  |  |  _/  |_ _____   _______ _____     ____    ____  
+ \   Y   /  /  _ \ |  |  \   __\\__  \  \_  __ \\__  \  _/ ___\ _/ __ \ 
+  \     /  (  <_> )|  |__ |  |   / __ \_ |  | \/ / __ \_\  \___ \  ___/ 
+   \___/    \____/ |____/ |__|  (____  / |__|   (____  / \___  > \___  >
+by Pastec0                           \/              \/      \/      \/ 
+
+
+Comment utiliser Voltarace ?
+
+Voltarace est une extension codée sur Firefox il est donc recomendé de l'utiliser sur ce navigateur.
+Pour la mettre en oeuvre vous devez accéder à la page interne de firefox de debug pour y accéder il
+faut taper "about:debugging#/setup" dans le bare d'URL. Puis dans la section "Ce Firefox" il faut
+ajouter une extension temporaire "Charger un module complémentaire temporaire...". Un explorateur
+de fichiers s'ouvre, vous devez selectionner le fichier "manifest.json" et l'ouvrir.
+
+Maintenant l'icon de voltarace dans la bare de votre navigateur. Vous n'avez plus qu'à vous connecter
+au projet voltaire et ouvrir une session (seulement QCM). Ensuite clickez sur l'icon de l'extension
+et maintenant l'interface de la pop-up est sufisament simple pour pouvoir vous débrouiller.
+
+///----------/// Disclamer \\\----------\\\
+
+Cette extension à été codée très rapidement
+et à été assez peu testée. Elle n'est pas
+robuste du tout. En cas de problème n'ésitez
+pas à recharger la page pour tout réinitialiser.
+
+///----------///------------\\\----------\\\
+
+N'oubliez pas qu'à l'origine le projet voltaire est cesé vous permaitre de vous améliorer...
+Si vous choisissez d'utiliser cet outil cela ne regarde que vous. 
